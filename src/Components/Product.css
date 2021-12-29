@@ -1,4 +1,48 @@
 .product {
-  height: 600px;
+  height: 650px;
   background-color: #f6f6f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Mukta-Mahee", sans-serif;
+  font-size: 20px;
+  padding: 100px 30px;
+}
+
+.description {
+  max-width: 700px;
+}
+.productImage {
+  max-height: 500px;
+  height: auto;
+  width: auto;
+  border: 8px solid #6a93b0;
+  padding: 25px;
+}
+
+.serum {
+  font-weight: 700;
+  font-size: 40px;
+  color: #6a93b0;
+  padding-bottom: 20px;
+}
+
+.info {
+  line-height: 1.8;
+}
+
+.more-btn {
+  background-color: #f6f6f6;
+  color: #6a93b0;
+  font-size: 20px;
+  padding: 10px 15px;
+  box-shadow: none;
+  border: 2px solid #6a93b0;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.more-btn:hover {
+  transform: scale(1.05);
 }
