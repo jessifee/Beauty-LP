@@ -9,7 +9,10 @@ function Footer() {
         <p className="footerItems">Policy</p>
         <p className="footerItems">Terms</p>
       </div>
-      <p className="beauty">beauty</p>
+      <div className="footerMidSection">
+        <p className="beauty">beauty</p>
+        <p className="footerAt">@2021 Jessna Pakzad. All rights reserved.</p>
+      </div>
       <div>
         <i class="bi bi-instagram"></i>
         <i class="bi bi-facebook"></i>
