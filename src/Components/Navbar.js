@@ -24,7 +24,14 @@ function Navbar() {
           >
             About Us
           </Link>
-          <p className="menu-items">Contact</p>
+          <Link
+            className="menu-items"
+            to="ContactSection"
+            smooth={true}
+            duration={850}
+          >
+            Contact
+          </Link>
         </div>
         <button className="shop-btn">Shop now</button>
       </div>

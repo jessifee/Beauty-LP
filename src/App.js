@@ -5,6 +5,7 @@ import LandingPage from "./Components/LandingPage";
 import Product from "./Components/Product";
 import Testimonial from "./Components/Testimonial";
 import AboutUs from "./Components/AboutUs";
+import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Product />
       <Testimonial />
       <AboutUs />
+      <Contact />
       <Footer />
     </div>
   );
