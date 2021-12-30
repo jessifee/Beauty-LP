@@ -1,0 +1,21 @@
+.CommentBody {
+  height: 100px;
+  background-color: rgb(171, 171, 189);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 18px;
+}
+.comment {
+  font-size: 30px;
+  font-family: "Baskerville";
+  color: #f6f6f6;
+  font-style: italic;
+  text-align: center;
+  margin: 0px 20px;
+}
+
+.author {
+  font-family: Baskerville;
+}
