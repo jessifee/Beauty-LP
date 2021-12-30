@@ -1,5 +1,5 @@
 import React from "react";
-import "./Comment.css";
+import "./Testimonial.css";
 
 function Comment() {
   return (
@@ -12,7 +12,6 @@ function Comment() {
         <span class="fa fa-star checked"></span>
       </div>
       <p className="comment">"I love it! Best serum I have ever used!"</p>
-
       <p className="author">~ Jane Doe</p>
     </div>
   );
