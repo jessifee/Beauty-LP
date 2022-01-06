@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import LandingPage from "./Components/LandingPage";
 import Product from "./Components/Product";
 import Testimonial from "./Components/Testimonial";
-import AboutUs from "./Components/AboutUs";
+import AboutUs from "./Components/AboutUs/AboutUs";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 

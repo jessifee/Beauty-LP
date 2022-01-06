@@ -1,0 +1,18 @@
+.member {
+  display: flex;
+  flex-direction: column;
+}
+
+.memberImage {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+}
+
+.position,
+.name {
+  text-align: center;
+  font-size: 18px;
+  margin: 1px;
+  font-family: "Mukta-Mahee", sans-serif;
+}
