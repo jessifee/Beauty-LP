@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 
 function Contact() {
+  const [submit, setSubmit] = useState("submit");
+
+  function handleSubmit(e) {
+    setSubmit("sent");
+  }
   return (
     <div className="ContactSection" id="ContactSection">
       <p className="ContactTitle">Contact</p>
@@ -13,7 +18,13 @@ function Contact() {
         <input type="text" name="subject" placeholder="Subject " />
 
         <textarea type="text" name="message" placeholder="Message" rows="5" />
-        <button className="submitBtn">Submit</button>
+        <button
+          type="button"
+          className={submit === "submit" ? "submitBtn" : "messageBtn"}
+          onClick={handleSubmit}
+        >
+          {submit === "submit" ? "Submit" : "Message sent"}
+        </button>
       </form>
     </div>
   );
