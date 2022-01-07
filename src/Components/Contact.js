@@ -8,8 +8,8 @@ function Contact() {
     setSubmit("sent");
   }
   return (
-    <div className="ContactSection" id="ContactSection">
-      <p className="ContactTitle">Contact</p>
+    <div className="contactSection" id="ContactSection">
+      <p className="contactTitle">Contact</p>
       <form className="form">
         <input type="text" name="name" placeholder="Full Name" />
 

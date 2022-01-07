@@ -1,4 +1,4 @@
-.ContactSection {
+.contactSection {
   height: 650px;
   background-color: #f6f6f6;
   font-family: Mukta-Mahee, sans-serif;
@@ -6,7 +6,7 @@
   font-size: 20px;
 }
 
-.ContactTitle {
+.contactTitle {
   font-size: 40px;
   font-weight: 700;
   text-align: center;

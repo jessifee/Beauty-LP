@@ -3,7 +3,7 @@ import "./LandingPage.css";
 
 function LandingPage() {
   return (
-    <div className="LP-Container">
+    <div className="LP-Container" id="top">
       <div className="content">
         <h1 className="quote">Be your own kind of beautiful</h1>
         <h2 className="subtitle">

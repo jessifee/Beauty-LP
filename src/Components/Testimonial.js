@@ -3,7 +3,7 @@ import "./Testimonial.css";
 
 function Comment() {
   return (
-    <div className="CommentBody">
+    <div className="commentBody">
       <div>
         <span class="fa fa-star checked"></span>
         <span class="fa fa-star checked"></span>

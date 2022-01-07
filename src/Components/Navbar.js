@@ -23,7 +23,15 @@ function Navbar() {
   return (
     <div className="container">
       <div className="nav">
-        <h1 className="beauty">beauty</h1>
+        <Link
+          className="beauty"
+          to="top"
+          smooth={true}
+          duration={250}
+          offset={-100}
+        >
+          beauty
+        </Link>
         <div className="menu">
           <Link
             className={active === "Product" ? "viewed" : "menuItems"}
@@ -31,7 +39,6 @@ function Navbar() {
             smooth={true}
             duration={650}
             offset={60}
-            id="product"
           >
             Product
           </Link>

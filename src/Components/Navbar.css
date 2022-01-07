@@ -23,6 +23,10 @@
 .beauty {
   font-size: 30px;
   font-weight: 900;
+  cursor: pointer;
+}
+.beauty:hover {
+  transform: scale(1.05);
 }
 
 .menuItems {
