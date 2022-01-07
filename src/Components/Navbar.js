@@ -27,7 +27,7 @@ function Navbar() {
           className="beauty"
           to="top"
           smooth={true}
-          duration={250}
+          duration={350}
           offset={-100}
         >
           beauty
