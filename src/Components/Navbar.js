@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
-import Product from "./Product";
-
 function Navbar() {
   const [active, setActive] = useState();
 

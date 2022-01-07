@@ -1,4 +1,6 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
+import Flip from "react-reveal/Flip";
 import "./Product.css";
 import ProductImage from "./Images/ProductImage.jpg";
 
@@ -6,7 +8,9 @@ function Product() {
   return (
     <div className="product" id="ProductSection">
       <div className="description">
-        <p className="serum">The Serum</p>
+        <Flip top>
+          <p className="serum">The Serum</p>
+        </Flip>
         <p className="info">
           Praesent lacinia lectus tortor, nec placerat ante blandit eu.
           Pellentesque vitae pulvinar nulla. Nulla sodales accumsan volutpat.
@@ -19,7 +23,9 @@ function Product() {
         </p>
         <button className="more-btn">More Information</button>
       </div>
-      <img className="productImage" src={ProductImage} alt="" />
+      <Fade right>
+        <img className="productImage" src={ProductImage} alt="" />
+      </Fade>
     </div>
   );
 }

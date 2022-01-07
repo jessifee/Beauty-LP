@@ -13,10 +13,10 @@
   max-width: 700px;
 }
 .productImage {
-  max-height: 500px;
+  max-height: 400px;
   height: auto;
   width: auto;
-  border: 8px solid #6a93b0;
+  border: 6px solid #6a93b0;
   padding: 25px;
 }
 

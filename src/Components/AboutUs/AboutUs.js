@@ -1,4 +1,5 @@
 import React from "react";
+import Flip from "react-reveal/Flip";
 import "./AboutUs.css";
 import TeamMembers from "./TeamMembers";
 import Woman1 from "/Users/jessna/projects/portfolio/src/Components/Images/Woman1.jpg";
@@ -7,7 +8,9 @@ import Woman2 from "/Users/jessna/projects/portfolio/src/Components/Images/Woman
 function AboutUs() {
   return (
     <div className="aboutUs" id="AboutSection">
-      <p className="aboutTitle">About us</p>
+      <Flip top>
+        <p className="aboutTitle">About us</p>
+      </Flip>
       <p className="aboutDescription">
         {" "}
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
