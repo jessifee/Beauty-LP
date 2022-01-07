@@ -1,4 +1,6 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import "./Footer.css";
 
 function Footer() {
@@ -10,7 +12,16 @@ function Footer() {
         <p className="footerItems">Terms</p>
       </div>
       <div className="footerMidSection">
-        <p className="beauty">beauty</p>
+        <Link
+          className="beauty"
+          to="top"
+          smooth={true}
+          duration={850}
+          offset={-100}
+        >
+          beauty
+        </Link>
+
         <p className="footerAt">@2021 Jessna Pakzad. All rights reserved.</p>
       </div>
       <div>

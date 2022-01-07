@@ -36,7 +36,7 @@ function Navbar() {
             to="productSection"
             smooth={true}
             duration={650}
-            offset={60}
+            offset={20}
           >
             Product
           </Link>
@@ -45,7 +45,7 @@ function Navbar() {
             to="aboutSection"
             smooth={true}
             duration={750}
-            offset={60}
+            offset={-20}
           >
             About Us
           </Link>
@@ -54,7 +54,7 @@ function Navbar() {
             to="contactSection"
             smooth={true}
             duration={850}
-            offset={60}
+            offset={-20}
           >
             Contact
           </Link>

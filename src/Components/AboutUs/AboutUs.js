@@ -7,7 +7,7 @@ import Woman2 from "/Users/jessna/projects/portfolio/src/Components/Images/Woman
 
 function AboutUs() {
   return (
-    <div className="aboutUs" id="AboutSection">
+    <div className="aboutUs" id="aboutSection">
       <Flip top>
         <p className="aboutTitle">About us</p>
       </Flip>

@@ -6,7 +6,7 @@ import ProductImage from "./Images/ProductImage.jpg";
 
 function Product() {
   return (
-    <div className="product" id="ProductSection">
+    <div className="product" id="productSection">
       <div className="description">
         <Flip top>
           <p className="serum">The Serum</p>

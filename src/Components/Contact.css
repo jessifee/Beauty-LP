@@ -31,6 +31,11 @@ textarea {
   color: #f6f6f6;
 }
 
+input::placeholder,
+textarea::placeholder {
+  color: black;
+}
+
 .submitBtn {
   background-color: rgb(171, 171, 189);
   border: 2px solid black;

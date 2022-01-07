@@ -9,7 +9,7 @@ function Contact() {
     setSubmit("sent");
   }
   return (
-    <div className="contactSection" id="ContactSection">
+    <div className="contactSection" id="contactSection">
       <Flip top>
         <p className="contactTitle">Contact</p>
       </Flip>
