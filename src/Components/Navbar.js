@@ -1,25 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./Navbar.css";
+import Product from "./Product";
 
 function Navbar() {
+  const [active, setActive] = useState();
+
+  window.addEventListener("scroll", () => {
+    let scroll = window.scrollY;
+    if (scroll < 600) {
+      setActive("Landing");
+    } else if (scroll > 600 && scroll < 1350) {
+      setActive("Product");
+    } else if (scroll > 1350 && scroll < 2060) {
+      setActive("About");
+    } else if (scroll > 2060) {
+      setActive("Contact");
+    }
+    console.log(scroll);
+  });
+
   return (
-    <div className="Container">
-      <div className="Nav">
+    <div className="container">
+      <div className="nav">
         <h1 className="beauty">beauty</h1>
-        <div className="Menu">
+        <div className="menu">
           <Link
-            className="menu-items"
-            to="ProductSection"
+            className={active === "Product" ? "viewed" : "menuItems"}
+            to="productSection"
             smooth={true}
             duration={650}
             offset={60}
+            id="product"
           >
             Product
           </Link>
           <Link
-            className="menu-items"
-            to="AboutSection"
+            className={active === "About" ? "viewed" : "menuItems"}
+            to="aboutSection"
             smooth={true}
             duration={750}
             offset={60}
@@ -27,8 +45,8 @@ function Navbar() {
             About Us
           </Link>
           <Link
-            className="menu-items"
-            to="ContactSection"
+            className={active === "Contact" ? "viewed" : "menuItems"}
+            to="contactSection"
             smooth={true}
             duration={850}
             offset={60}
@@ -36,7 +54,7 @@ function Navbar() {
             Contact
           </Link>
         </div>
-        <button className="shop-btn">Shop now</button>
+        <button className="shopBtn">Shop now</button>
       </div>
     </div>
   );

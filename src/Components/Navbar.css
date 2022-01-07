@@ -1,4 +1,4 @@
-.Container {
+.container {
   margin: 0;
   padding: 0;
   background-color: #6a93b0;
@@ -7,16 +7,17 @@
   color: #f6f6f6;
   font-size: 20px;
   position: sticky;
+  top: 0;
 }
 
-.Nav {
+.nav {
   display: flex;
   justify-content: space-between;
   padding: 16px;
   align-items: center;
 }
 
-.Menu {
+.menu {
   display: flex;
 }
 .beauty {
@@ -24,16 +25,22 @@
   font-weight: 900;
 }
 
-.menu-items {
+.menuItems {
   padding: 15px;
   cursor: pointer;
 }
-.menu-items:hover {
+.menuItems:hover {
   transform: scale(1.1);
   text-decoration: underline #f6f6f6 3.5px;
 }
+.viewed {
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: underline #f6f6f6 3.5px;
+  transition: 0.3 ease text-decoration;
+}
 
-.shop-btn {
+.shopBtn {
   background-color: #6a93b0;
   color: #f6f6f6;
   font-size: 20px;
