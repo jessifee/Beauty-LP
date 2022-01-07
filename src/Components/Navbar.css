@@ -1,10 +1,10 @@
 .container {
   margin: 0;
   padding: 0;
-  background-color: #6a93b0;
+  background-color: #f6f6f6;
   height: 80px;
   font-family: "Mukta Mahee", sans-serif;
-  color: #f6f6f6;
+  color: #6a93b0;
   font-size: 20px;
   position: sticky;
   top: 0;
@@ -35,22 +35,22 @@
 }
 .menuItems:hover {
   transform: scale(1.1);
-  text-decoration: underline #f6f6f6 3.5px;
+  text-decoration: underline #6a93b0 3.5px;
 }
 .viewed {
   padding: 15px;
   cursor: pointer;
-  text-decoration: underline #f6f6f6 3.5px;
+  text-decoration: underline #6a93b0 3.5px;
   transition: 0.3 ease text-decoration;
 }
 
 .shopBtn {
-  background-color: #6a93b0;
-  color: #f6f6f6;
+  background-color: #f6f6f6;
+  color: #6a93b0;
   font-size: 20px;
   padding: 10px 15px;
   box-shadow: none;
-  border: 2px solid #f6f6f6;
+  border: 2px solid #6a93b0;
   border-radius: 15px;
   cursor: pointer;
 }
