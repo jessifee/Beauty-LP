@@ -5,14 +5,17 @@
   color: #6a93b0;
   font-size: 20px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+}
+.content {
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
-}
-.content {
-  text-align: center;
-  max-width: 1000px;
+  text-align: left;
+  max-width: 750px;
 }
 
 .quote {
@@ -20,9 +23,14 @@
   font-family: "Baskerville";
   font-weight: 800;
   margin-bottom: 20px;
+  align-self: flex-start;
 }
 .subtitle {
   font-size: 25px;
   font-family: "Baskerville";
   font-weight: lighter;
+}
+
+#beautyImg {
+  height: 450px;
 }

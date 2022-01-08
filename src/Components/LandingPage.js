@@ -1,5 +1,6 @@
 import React from "react";
 import Flip from "react-reveal/Flip";
+import Beauty from "./Images/Beauty.jpg";
 import "./LandingPage.css";
 
 function LandingPage() {
@@ -15,6 +16,7 @@ function LandingPage() {
           tortor. Curabitur in mi non ex maximus dapibus vel et tortor.
         </h2>
       </div>
+      <img src={Beauty} alt="" id="beautyImg" />
     </div>
   );
 }
