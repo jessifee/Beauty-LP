@@ -7,6 +7,9 @@ import ProductImage from "./Images/ProductImage.jpg";
 function Product() {
   return (
     <div className="product" id="productSection">
+      <Fade left>
+        <img className="productImage" src={ProductImage} alt="" />
+      </Fade>
       <div className="description">
         <Flip top>
           <p className="serum">The Serum</p>
@@ -23,9 +26,6 @@ function Product() {
         </p>
         <button className="more-btn">More Information</button>
       </div>
-      <Fade right>
-        <img className="productImage" src={ProductImage} alt="" />
-      </Fade>
     </div>
   );
 }

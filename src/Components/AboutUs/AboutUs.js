@@ -2,8 +2,8 @@ import React from "react";
 import Flip from "react-reveal/Flip";
 import "./AboutUs.css";
 import TeamMembers from "./TeamMembers";
-import Woman1 from "/Users/jessna/projects/portfolio/src/Components/Images/Woman1.jpg";
-import Woman2 from "/Users/jessna/projects/portfolio/src/Components/Images/Woman2.jpg";
+import Woman1 from "./Woman1.jpg";
+import Woman2 from "./Woman2.jpg";
 
 function AboutUs() {
   return (
