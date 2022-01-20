@@ -45,3 +45,16 @@
 .more-btn:hover {
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 600px) {
+  .product {
+    display: block;
+    height: 700px;
+  }
+  .productImage {
+    display: none;
+  }
+  .description {
+    width: 100%;
+  }
+}

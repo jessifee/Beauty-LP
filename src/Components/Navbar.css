@@ -59,3 +59,47 @@
 .shopBtn:hover {
   transform: scale(1.05);
 }
+
+.menuBtn {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.menuBtn .bar {
+  height: 3px;
+  background-color: #6a93b0;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .shopBtn {
+    display: none;
+  }
+
+  .menuBtn {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .menu Link,
+  .visible Link {
+    text-align: center;
+  }
+
+  .visible {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}

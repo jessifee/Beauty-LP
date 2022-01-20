@@ -20,7 +20,7 @@
   font-family: Baskerville;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .commentBody {
     width: 100%;
     font-size: 12px;
