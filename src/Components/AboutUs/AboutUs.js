@@ -1,6 +1,5 @@
 import React from "react";
 import Flip from "react-reveal/Flip";
-import "./AboutUs.css";
 import TeamMembers from "./TeamMembers";
 import Woman1 from "./Woman1.jpg";
 import Woman2 from "./Woman2.jpg";
