@@ -105,8 +105,24 @@
     padding: 0;
     font-size: 20px;
     text-align: center;
+    animation: growDown 0.4s ease-in-out forwards;
+    transform-origin: top center;
   }
   .hidden {
-    display: none;
+    visibility: hidden;
+  }
+
+  @keyframes growDown {
+    0% {
+      transform: scaleY(0);
+    }
+
+    80% {
+      transform: scaleY(1.1);
+    }
+
+    100% {
+      transform: scaleY(1);
+    }
   }
 }
