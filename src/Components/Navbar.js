@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import "./Navbar.css";
 function Navbar() {
   const [active, setActive] = useState();
-  const [visible, setVisible] = useState();
+  const [visible, setVisible] = useState("hidden");
 
   window.addEventListener("scroll", () => {
     let scroll = window.scrollY;
@@ -20,7 +20,11 @@ function Navbar() {
   });
 
   function changeVisibility() {
-    setVisible("visible");
+    if (visible === "visible") {
+      setVisible("hidden");
+    } else if (visible === "hidden") {
+      setVisible("visible");
+    }
   }
 
   return (
@@ -41,13 +45,14 @@ function Navbar() {
           <span className="bar"></span>
         </a>
 
-        <div className={visible === "visible" ? "visible" : "menu"}>
+        <div className={visible === "hidden" ? "hidden" : "menu"}>
           <Link
             className={active === "Product" ? "viewed" : "menuItems"}
             to="productSection"
             smooth={true}
             duration={650}
             offset={20}
+            onClick={changeVisibility}
           >
             Product
           </Link>
@@ -57,6 +62,7 @@ function Navbar() {
             smooth={true}
             duration={750}
             offset={-20}
+            onClick={changeVisibility}
           >
             About Us
           </Link>
@@ -66,6 +72,7 @@ function Navbar() {
             smooth={true}
             duration={850}
             offset={-20}
+            onClick={changeVisibility}
           >
             Contact
           </Link>

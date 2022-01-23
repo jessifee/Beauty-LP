@@ -82,24 +82,31 @@
     display: none;
   }
 
+  .beauty {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+
   .menuBtn {
     display: flex;
+    position: absolute;
+    top: 25px;
+    right: 25px;
   }
 
   .menu {
-    display: none;
     width: 100%;
     flex-direction: column;
-  }
-
-  .menu Link,
-  .visible Link {
+    background-color: #f6f6f6;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: 0;
+    font-size: 30px;
     text-align: center;
   }
-
-  .visible {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
+  .hidden {
+    display: none;
   }
 }
