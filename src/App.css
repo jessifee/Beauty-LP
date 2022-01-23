@@ -21,10 +21,29 @@
   line-height: 1.8;
   text-align: justify;
   margin: 40px 100px;
+  color: black;
 }
 
 .team {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .aboutUs {
+    padding: 80px 50px;
+    height: 700px;
+  }
+  .aboutTitle {
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .aboutDescription {
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin: 0;
+  }
 }

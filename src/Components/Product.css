@@ -49,12 +49,21 @@
 @media screen and (max-width: 600px) {
   .product {
     display: block;
-    height: 700px;
+    height: 600px;
+    padding: 100px 50px;
   }
   .productImage {
     display: none;
   }
+  .serum {
+    font-size: 30px;
+  }
   .description {
     width: 100%;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .more-btn {
+    font-size: 15px;
   }
 }

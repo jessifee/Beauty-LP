@@ -24,7 +24,30 @@ i {
 .footerMidSection {
   text-align: center;
 }
+.beautyFooter {
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+}
 
 .footerAt {
   margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    height: 150px;
+  }
+  .footerFirstSection {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+  }
+  .beautyFooter {
+    font-size: 15px;
+  }
 }

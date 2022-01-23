@@ -28,7 +28,7 @@ textarea {
   border-right: none;
   border-bottom: solid 2px black;
   background-color: rgb(171, 171, 189);
-  color: #f6f6f6;
+  color: black;
 }
 
 input::placeholder,
@@ -59,4 +59,23 @@ textarea::placeholder {
   padding: 10px 15px;
   margin-top: 40px;
   cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .contactSection {
+    height: 600px;
+  }
+  .contactTitle {
+    font-size: 25px;
+  }
+  input,
+  textarea {
+    width: 300px;
+    font-size: 15px;
+    margin-top: 50px;
+  }
+
+  .submitBtn,
+  .messageBtn {
+    font-size: 15px;
+  }
 }

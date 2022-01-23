@@ -36,8 +36,23 @@
   height: 450px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .LP-Container {
     display: block;
+  }
+  .quote {
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 10px;
+  }
+  .subtitle {
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 40px;
+  }
+  #beautyImg {
+    height: 300px;
+    display: block;
+    margin: auto;
   }
 }

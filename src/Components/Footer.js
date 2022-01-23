@@ -6,14 +6,14 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <div>
+      <div className="footerFirstSection">
         <p className="footerItems">About</p>
         <p className="footerItems">Policy</p>
         <p className="footerItems">Terms</p>
       </div>
       <div className="footerMidSection">
         <Link
-          className="beauty"
+          className="beautyFooter"
           to="top"
           smooth={true}
           duration={850}
