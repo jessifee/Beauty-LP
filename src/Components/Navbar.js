@@ -39,7 +39,7 @@ function Navbar() {
         >
           beauty
         </Link>
-        <a href="#" className="menuBtn" onClick={changeVisibility}>
+        <a href="#!" className="menuBtn" onClick={changeVisibility}>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
