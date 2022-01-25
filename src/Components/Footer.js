@@ -22,7 +22,7 @@ function Footer() {
           beauty
         </Link>
 
-        <p className="footerAt">@2021 Jessna Pakzad. All rights reserved.</p>
+        <p className="footerAt">@2022 Jessna Pakzad. All rights reserved.</p>
       </div>
       <div>
         <i class="bi bi-instagram"></i>
