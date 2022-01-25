@@ -1,19 +1,13 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
-import Flip from "react-reveal/Flip";
 import "./Product.css";
 import ProductImage from "./Images/ProductImage.jpg";
 
 function Product() {
   return (
     <div className="product" id="productSection">
-      <Fade left>
-        <img className="productImage" src={ProductImage} alt="" />
-      </Fade>
+      <img className="productImage" src={ProductImage} alt="" />
       <div className="description">
-        <Flip top>
-          <p className="serum">The Serum</p>
-        </Flip>
+        <p className="serum">The Serum</p>
         <p className="info">
           Praesent lacinia lectus tortor, nec placerat ante blandit eu.
           Pellentesque vitae pulvinar nulla. Nulla sodales accumsan volutpat.

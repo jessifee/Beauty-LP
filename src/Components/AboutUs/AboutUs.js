@@ -1,5 +1,4 @@
 import React from "react";
-import Flip from "react-reveal/Flip";
 import TeamMembers from "./TeamMembers";
 import Woman1 from "./Woman1.jpg";
 import Woman2 from "./Woman2.jpg";
@@ -7,9 +6,7 @@ import Woman2 from "./Woman2.jpg";
 function AboutUs() {
   return (
     <div className="aboutUs" id="aboutSection">
-      <Flip top>
-        <p className="aboutTitle">About us</p>
-      </Flip>
+      <p className="aboutTitle">About us</p>
       <p className="aboutDescription">
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam

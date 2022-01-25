@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Flip from "react-reveal/Flip";
 import "./Contact.css";
 
 function Contact() {
@@ -10,9 +9,7 @@ function Contact() {
   }
   return (
     <div className="contactSection" id="contactSection">
-      <Flip top>
-        <p className="contactTitle">Contact</p>
-      </Flip>
+      <p className="contactTitle">Contact</p>
       <form className="form">
         <input type="text" name="name" placeholder="Full Name" />
 
