@@ -30,6 +30,7 @@
   font-size: 25px;
   font-family: "Baskerville";
   font-weight: lighter;
+  color: black;
 }
 
 #beautyImg {
@@ -41,7 +42,7 @@
     display: block;
   }
   .quote {
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
     padding: 40px 10px;
   }

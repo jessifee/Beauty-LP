@@ -51,7 +51,7 @@ function Navbar() {
             to="productSection"
             smooth={true}
             duration={650}
-            offset={20}
+            offset={-20}
             onClick={changeVisibility}
           >
             Product
