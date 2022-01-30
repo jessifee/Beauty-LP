@@ -6,18 +6,26 @@ function Contact() {
 
   function handleSubmit(e) {
     setSubmit("sent");
+    const form = document.getElementById("form");
+    form.reset();
   }
   return (
     <div className="contactSection" id="contactSection">
       <p className="contactTitle">Contact</p>
-      <form className="form">
-        <input type="text" name="name" placeholder="Full Name" />
+      <form className="form" id="form">
+        <input type="text" name="name" placeholder="Full Name" required />
 
-        <input type="email" name="email" placeholder="E-Mail" />
+        <input type="email" name="email" placeholder="E-Mail" required />
 
-        <input type="text" name="subject" placeholder="Subject " />
+        <input type="text" name="subject" placeholder="Subject" required />
 
-        <textarea type="text" name="message" placeholder="Message" rows="5" />
+        <textarea
+          type="text"
+          name="message"
+          placeholder="Message"
+          rows="5"
+          required
+        />
         <button
           type="button"
           className={submit === "submit" ? "submitBtn" : "messageBtn"}
