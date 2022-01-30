@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 .beauty:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .menuItems {
@@ -35,7 +35,6 @@
   cursor: pointer;
 }
 .menuItems:hover {
-  transform: scale(1.1);
   text-decoration: underline #6a93b0 3.5px;
 }
 .viewed {
@@ -58,6 +57,7 @@
 
 .shopBtn:hover {
   transform: scale(1.05);
+  box-shadow: 5px 5px 5px 5px #3e5e75;
 }
 
 .menuBtn {
