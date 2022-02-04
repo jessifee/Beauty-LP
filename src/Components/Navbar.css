@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  box-shadow: 0px 6px 6px 0px #d6d4d4;
 }
 
 .nav {
@@ -84,7 +85,7 @@
 
   .beauty {
     position: absolute;
-    top: 25px;
+    top: 23px;
     left: 25px;
   }
 
