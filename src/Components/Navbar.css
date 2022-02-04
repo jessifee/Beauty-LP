@@ -62,9 +62,6 @@
 }
 
 .menuBtn {
-  position: absolute;
-  top: 0.75rem;
-  right: 1rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -79,21 +76,20 @@
 }
 
 @media screen and (max-width: 800px) {
+  .container {
+    height: 65px;
+  }
   .shopBtn {
     display: none;
   }
 
-  .beauty {
-    position: absolute;
-    top: 23px;
-    left: 25px;
-  }
-
   .menuBtn {
     display: flex;
-    position: absolute;
-    top: 25px;
-    right: 25px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .menu {
@@ -110,7 +106,7 @@
     transform-origin: top center;
   }
   .hidden {
-    visibility: hidden;
+    display: none;
   }
 
   @keyframes growDown {
